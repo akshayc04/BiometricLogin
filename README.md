@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 
 ### 2. Add the dependency to your build.gradle (App-level)
 ```gradle
-implementation 'com.github.akshayc04:BiometricLogin:1.0.0'
+implementation 'com.github.akshayc04:BiometricLogin:1.0.1'
 ```
 
 ## 🛠️ Usage
