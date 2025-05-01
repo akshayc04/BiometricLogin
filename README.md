@@ -78,7 +78,7 @@ BiometricLogin.decrypt(
     }
 )
 ```
-
+# Note:  Use EncryptedSharedPreferences to securely store your key 
 
 ## ⚙️ Requirements
 Minimum SDK: 23+ (for Biometric support)
