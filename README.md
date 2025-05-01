@@ -30,7 +30,7 @@ implementation 'com.github.akshayc04:BiometricLogin:1.0.1'
 ```
 
 ## 🛠️ Usage
-# 🔐 Basic Biometric Login
+### 🔐 Basic Biometric Login
 Use this method for simple biometric authentication, without using Keystore encryption:
 ```kotlin
 BiometricLogin.basicLogin(
@@ -47,7 +47,7 @@ BiometricLogin.basicLogin(
 ```
 
 
-# 🔐 Advanced Biometric Login (with Keystore Encryption)
+### 🔐 Advanced Biometric Login (with Keystore Encryption)
 Use this method to encrypt data using the Android Keystore and perform biometric authentication:
 ```kotlin
 BiometricLogin.encryptAndStore(
@@ -78,7 +78,7 @@ BiometricLogin.decrypt(
     }
 )
 ```
-# Note:  Use EncryptedSharedPreferences to securely store your key 
+### Note:  Use EncryptedSharedPreferences to securely store your key 
 
 ## ⚙️ Requirements
 Minimum SDK: 23+ (for Biometric support)
